@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="QrCodeGenerate/QrCodeGenerate.csproj" />
+  <Project Path="tests/QrCodeGenerate.Tests.Unit/QrCodeGenerate.Tests.Unit.csproj" />
+  <Project Path="tests/QrCodeGenerate.Tests.Component/QrCodeGenerate.Tests.Component.csproj" />
+  <Project Path="tests/QrCodeGenerate.Tests.Integration/QrCodeGenerate.Tests.Integration.csproj" />
+  <Project Path="tests/QrCodeGenerate.Tests.Acceptance/QrCodeGenerate.Tests.Acceptance.csproj" />
+</Solution>

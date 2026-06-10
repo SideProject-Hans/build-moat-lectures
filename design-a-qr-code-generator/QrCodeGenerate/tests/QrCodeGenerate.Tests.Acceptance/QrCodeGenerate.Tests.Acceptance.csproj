@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net9.0</TargetFramework>
-    <RootNamespace>qr_code_generate.Tests.Acceptance</RootNamespace>
+    <RootNamespace>QrCodeGenerate.Tests.Acceptance</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <IsPackable>false</IsPackable>
@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../qr-code-generate/qr-code-generate.csproj" />
+    <ProjectReference Include="../../QrCodeGenerate/QrCodeGenerate.csproj" />
     <Using Include="Xunit" />
   </ItemGroup>
 
