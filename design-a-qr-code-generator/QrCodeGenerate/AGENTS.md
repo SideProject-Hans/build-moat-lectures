@@ -118,3 +118,25 @@ New code must conform on first commit.
 Style violations surfaced by the IDE or `dotnet format` are fixed in the same change
 only when already touching that code (Rule 3 applies — no drive-by mass reformatting).
 Deviations are recorded in the "Known deviations" registry of `docs/CODING_STANDARDS.md`, per Rule 7.
+
+## Rule 20 — Reference documents: when and how to use them
+
+Five read-only reference documents live in `docs/references/`. They are derived from official
+Microsoft and community sources and explain the *why* behind conventions, covering depth that
+`CODING_STANDARDS.md` intentionally omits. Do not copy rules from them into `CODING_STANDARDS.md`;
+surface any conflict per Rule 7 instead.
+
+| Document | Consult when you are… |
+|---|---|
+| `01-naming-conventions.md` | Uncertain about identifier casing, abbreviation length, enum/interface/generic naming, or any naming anti-pattern. |
+| `02-csharp-language-idioms.md` | Deciding how to use `var`, string types, collection initializers, delegates, exceptions, LINQ, object initialization, or applying class/member design principles. |
+| `03-formatting-and-layout.md` | Choosing brace style, member ordering inside a class, blank-line placement, comment format, or expression-bodied member applicability. |
+| `04-aspnetcore-best-practices.md` | Writing async code, data access, caching, `HttpContext` usage, request/response I/O, background tasks, or middleware in this Blazor Server application. |
+| `05-framework-design-guidelines.md` | Designing a service interface, choosing between class / struct / record, deciding property vs method, returning collections, defining custom exceptions, or implementing `IDisposable`. |
+
+When sources conflict, resolve in this priority order:
+
+1. `CODING_STANDARDS.md` — project-specific rules, always wins.
+2. `.editorconfig` — machine-enforced style.
+3. `docs/references/` — external authority; use for rationale and depth.
+4. Personal preference — last resort only.
