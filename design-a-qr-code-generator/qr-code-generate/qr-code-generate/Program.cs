@@ -1,12 +1,13 @@
 using qr_code_generate.Components;
-using qr_code_generate.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
-builder.Services.AddSingleton<ICounterService, CounterService>();
+
+// QR Code 服務將於功能實作階段在此註冊:
+// builder.Services.AddSingleton<IQrCodeService, QrCodeService>();
 
 var app = builder.Build();
 

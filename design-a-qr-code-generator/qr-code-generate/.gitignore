@@ -2,6 +2,9 @@
 bin/
 obj/
 
+# Reqnroll generated code-behind
+*.feature.cs
+
 # Rider / IDE
 .idea/
 *.sln.iml
