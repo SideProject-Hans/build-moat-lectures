@@ -1,4 +1,4 @@
-using qr_code_generate.Components;
+using QrCodeGenerate.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 

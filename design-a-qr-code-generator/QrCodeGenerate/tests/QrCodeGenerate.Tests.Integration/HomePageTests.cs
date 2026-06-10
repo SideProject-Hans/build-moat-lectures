@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc.Testing;
 
-namespace qr_code_generate.Tests.Integration;
+namespace QrCodeGenerate.Tests.Integration;
 
 public class HomePageTests : IClassFixture<WebApplicationFactory<Program>>
 {

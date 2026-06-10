@@ -1,7 +1,0 @@
-<Solution>
-  <Project Path="qr-code-generate/qr-code-generate.csproj" />
-  <Project Path="tests/qr-code-generate.Tests.Unit/qr-code-generate.Tests.Unit.csproj" />
-  <Project Path="tests/qr-code-generate.Tests.Component/qr-code-generate.Tests.Component.csproj" />
-  <Project Path="tests/qr-code-generate.Tests.Integration/qr-code-generate.Tests.Integration.csproj" />
-  <Project Path="tests/qr-code-generate.Tests.Acceptance/qr-code-generate.Tests.Acceptance.csproj" />
-</Solution>

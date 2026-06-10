@@ -111,3 +111,10 @@ Use these projects/docs as implementation references when starting a new feature
   - Why test is needed.
   - Which layer proves it.
   - Whether SDD exists and what behavior it describes.
+
+## Rule 19 — Coding & naming standards
+All C# and Razor code follows `docs/CODING_STANDARDS.md` and the repo-root `.editorconfig`.
+New code must conform on first commit.
+Style violations surfaced by the IDE or `dotnet format` are fixed in the same change
+only when already touching that code (Rule 3 applies — no drive-by mass reformatting).
+Deviations are recorded in the "Known deviations" registry of `docs/CODING_STANDARDS.md`, per Rule 7.

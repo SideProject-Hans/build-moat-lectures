@@ -1,6 +1,6 @@
 using Reqnroll;
 
-namespace qr_code_generate.Tests.Acceptance.Steps;
+namespace QrCodeGenerate.Tests.Acceptance.Steps;
 
 [Binding]
 public sealed class SmokeSteps
