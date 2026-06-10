@@ -1,0 +1,29 @@
+# .NET build output
+bin/
+obj/
+
+# Rider / IDE
+.idea/
+*.sln.iml
+*.user
+*.userosscache
+*.suo
+*.userprefs
+.vs/
+
+# Logs and temp
+*.log
+*.tmp
+
+# Test artifacts
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+*.trx
+
+# VSCode
+.vscode/
+
+# macOS / OS
+.DS_Store
